@@ -223,11 +223,15 @@ align-items: center;
     color: rgb(32, 7, 255);
 }
 
-.boxes h2 {
+.boxes a {
     position: relative;
     left: 30px;
     top: 15px;
-    color: rgb(255, 4, 4) !important;
+    color: rgb(255, 4, 4) ;
+}
+.boxes a:hover{
+    color: rgb(46, 179, 6);
+    text-decoration: underline;
 }
 
 .food {
@@ -236,9 +240,12 @@ align-items: center;
 
 .fa-square-github,.fa-square-instagram {
     color: rgb(94, 92, 92);
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 0rem 0rem 2rem 0rem;
 }
-
+.fa-square-github:hover,.fa-square-instagram:hover{
+    color: crimson;
+    transform: scale(150%);
+}
 .i1,
 .i2,
 .i3 {
@@ -272,5 +279,6 @@ button:hover {
 
 .boxes:hover {
     transform: scale(90%);
+    
 
 }
