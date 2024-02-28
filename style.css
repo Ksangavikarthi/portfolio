@@ -44,7 +44,8 @@ li:hover {
 }
 
 a:hover {
-    color: rgb(1, 250, 237);
+    color: rgb(3, 3, 3);
+    font-weight: bold;
 }
 
 a {
@@ -101,7 +102,7 @@ a {
     top: 480px;
 }
 
-.fa-linkedin,.fa-github,.fa-square-twitter {
+.fa-linkedin,.fa-github,.fa-instagram {
     color: azure;
     background-color: rgb(150, 252, 124);
     padding: 19px 6px;
@@ -153,17 +154,11 @@ span {
     color: rgb(10, 190, 91);
     padding: 10px 0px;
 }
-
-
-
-
 .container2 {
-    background-color: rgb(252, 157, 165);
+    background-color: rgb(247, 173, 179);
     width: 100%;
-    height: 36rem;
-
+    height: 32rem;
 }
-
 .full {
     display: flex;
     width: 80%;
@@ -223,18 +218,15 @@ align-items: center;
 
 .paragraph {
     text-align: justify;
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 1rem 2rem 0rem 2rem;
     line-height:30px;
     color: rgb(32, 7, 255);
 }
 
-.boxes a {
-    padding: 2rem 2rem 0rem 1rem;
-    font-weight: bold;
-    font-size: 1.4rem;
+.boxes h2 {
     position: relative;
-    left: 15px;
-    top: 20px;
+    left: 30px;
+    top: 15px;
     color: rgb(255, 4, 4) !important;
 }
 
@@ -242,12 +234,7 @@ align-items: center;
     border-radius: 1.5rem 1.5rem 0rem 0rem
 }
 
-.fa-square-instagram {
-    color: rgb(94, 92, 92);
-    padding: 0rem 0rem 1rem 0rem;
-}
-
-.fa-square-github {
+.fa-square-github,.fa-square-instagram {
     color: rgb(94, 92, 92);
     padding: 0rem 0rem 1rem 0rem;
 }
@@ -258,16 +245,14 @@ align-items: center;
     text-indent: 3rem;
 }
 
-.title {
+/* .title {
     color: palegreen;
     text-align: center;
     margin: 1rem;
 }
-
 .bn-container {
     text-align: center;
 }
-
 .btn-primary {
     background-color: rgb(245, 128, 128);
     color: cornsilk;
@@ -275,17 +260,15 @@ align-items: center;
     padding: 0.5rem;
     margin: 0.5rem;
 }
-
 button:hover {
     background-color: lightgreen;
 }
-
 .menupic1 {
 
     border: 1px solid gray;
     width: 30rem;
     display: inline-block;
-}
+} */
 
 .boxes:hover {
     transform: scale(90%);
